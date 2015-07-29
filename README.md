@@ -7,6 +7,9 @@ token for "consul" in atlas.hashicorp.com
 
 #https://atlas.hashicorp.com/tutorial/packer-vagrant/1
 
+Build Vagrant Boxes with Packer and Atlas
+How to setup a Vagrant box management pipeline with Packer and Atlas.
+
 
 This is a tutorial for building Vagrant Boxes with Packer and Atlas
 Use `packer push` to automatically build, upload, and release Vagrant boxes to your team or community with Packer and Atlas.
@@ -17,6 +20,10 @@ This is a JSON file and associated provisioning scripts.
 Great. Some of the tutorial instructions may be a little different for you, but you can definitely follow along with your existing template.
 If you're unsure you want to use your existing project, don't hesistate to follow the example and delete it afterwards.
 You're ready to get started.
+
+#Packer Template
+git clone "https://github.com/hashicorp/atlas-packer-vagrant-tutorial.git"
+cd atlas-packer-vagrant-tutorial
 
 
 #Setup Atlas authorization by exporting an API token
